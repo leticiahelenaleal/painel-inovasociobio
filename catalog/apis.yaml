@@ -1,0 +1,8 @@
+- name: BrasilAPI CNPJ
+  type: api
+  provider: BrasilAPI
+  url: https://brasilapi.com.br/api/cnpj/v1/{cnpj}
+  description: API pública utilizada para consulta de dados cadastrais de empresas brasileiras a partir do CNPJ.
+  format: JSON
+  access: público
+  used_in: Painel Inova Sociobio
